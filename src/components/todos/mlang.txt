@@ -1,0 +1,26 @@
+// mlang
+
+a = 0 //0
+b = 1 // wrong
+c = 0
+
+
+a++ // 1
+a++ // 2
+
+for a {
+  c++
+}     // c = 2
+
+
+
+function add(a,b){
+res = 0
+  for a {
+   res++
+  }
+  for b {
+    res++
+  }
+return res
+}

@@ -1,0 +1,13 @@
+<div class="product">
+  <img class="product__image" [src]="item.img" [alt]="item.name">
+  <div class="product__info">
+    <div class="product__info__left">
+        <div class="product__price">{{item.price}}</div>
+        <div class="product__name">{{item.name}}</div>
+    </div>
+    <div class="product__info__right">
+      <button class="product__button" (click)="addToCartHandler()">Add to Cart</button>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,4 @@
+<router-outlet></router-outlet>
+<div class="product__list">
+  <app-product-item *ngFor="let prod of products" [item]="prod" (addToCart)="addToCart($event)"></app-product-item>
+</div>
